@@ -20,6 +20,8 @@ void EjercicioGeneral2Princ::btAdri_Click(Win::Event& e)
 
 void EjercicioGeneral2Princ::btFabi_Click(Win::Event& e)
 {
+	FabiDlg objFabi;
+	objFabi.BeginDialog(hWnd);
 }
 
 void EjercicioGeneral2Princ::btAngel_Click(Win::Event& e)

@@ -1,5 +1,6 @@
 #pragma once  //______________________________________ EjercicioGeneral2Princ.h  
 #include "Resource.h"
+#include "FabiDlg.h"
 class EjercicioGeneral2Princ : public Win::Dialog
 {
 public:
