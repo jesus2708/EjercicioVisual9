@@ -26,6 +26,8 @@ void EjercicioGeneral2Princ::btFabi_Click(Win::Event& e)
 
 void EjercicioGeneral2Princ::btAngel_Click(Win::Event& e)
 {
+	AngelDlg objAngel;
+	objAngel.BeginDialog(hWnd);
 }
 
 void EjercicioGeneral2Princ::btJesus_Click(Win::Event& e)
